@@ -34,4 +34,28 @@
 }
 */
 
+- (IBAction)pressLogin:(UIButton *)sender {
+    
+    
+    NSString* uName = @"lin";
+    NSString* uPass = @"123456";
+    
+    if ([_mTFUserName.text isEqual:uName] && [_mTFPassword.text isEqual:uPass]) {
+        
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"用户名密码正确，登录成功" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:@"取消", nil];
+        
+        [alert show];
+        
+    }else{
+        
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"用户名密码正确，登录成功" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:@"取消", nil];
+        [alert show];
+        
+    }
+    
+    
+}
+
+- (IBAction)pressRegister:(id)sender {
+}
 @end

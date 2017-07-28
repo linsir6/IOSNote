@@ -11,6 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VCRoot">
             <connections>
+                <outlet property="mBTLogin" destination="jIX-qJ-7sA" id="iAF-NK-ntX"/>
+                <outlet property="mBTRegister" destination="Shh-S9-ZEK" id="A45-jt-47e"/>
+                <outlet property="mTFPassword" destination="gR4-vL-Zr5" id="XvC-L0-j4X"/>
+                <outlet property="mTFUserName" destination="zgi-NE-zyi" id="1vJ-md-Lbk"/>
+                <outlet property="mUserName" destination="Qio-5M-5cp" id="uIb-kQ-Xeb"/>
+                <outlet property="mUserPassword" destination="RBq-4f-dnB" id="XEf-7u-zNs"/>
                 <outlet property="view" destination="Cco-ra-bKZ" id="lqw-qb-7xY"/>
             </connections>
         </placeholder>
@@ -51,15 +57,21 @@
                     <rect key="frame" x="42" y="318" width="31" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="登录"/>
+                    <connections>
+                        <action selector="pressLogin:" destination="-1" eventType="touchUpInside" id="TSb-4K-e6r"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shh-S9-ZEK">
                     <rect key="frame" x="42" y="387" width="31" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="注册"/>
+                    <connections>
+                        <action selector="pressRegister:" destination="-1" eventType="touchUpInside" id="3Ur-Z6-Bw8"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="-32.5" y="15.5"/>
+            <point key="canvasLocation" x="17" y="-58"/>
         </view>
     </objects>
 </document>
