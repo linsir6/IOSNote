@@ -16,6 +16,7 @@
 		95B0FE8A1F2EE55300BA8C38 /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0FE891F2EE55300BA8C38 /* VCRoot.m */; };
 		95B0FE8D1F2F009A00BA8C38 /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0FE8C1F2F009A00BA8C38 /* VCSecond.m */; };
 		95B0FE901F2F00B800BA8C38 /* VCThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0FE8F1F2F00B800BA8C38 /* VCThird.m */; };
+		95B0FE921F2F144500BA8C38 /* imageStone in Resources */ = {isa = PBXBuildFile; fileRef = 95B0FE911F2F144500BA8C38 /* imageStone */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		95B0FE8C1F2F009A00BA8C38 /* VCSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
 		95B0FE8E1F2F00B800BA8C38 /* VCThird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCThird.h; sourceTree = "<group>"; };
 		95B0FE8F1F2F00B800BA8C38 /* VCThird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCThird.m; sourceTree = "<group>"; };
+		95B0FE911F2F144500BA8C38 /* imageStone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imageStone; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		95B0FE651F2EE49000BA8C38 = {
 			isa = PBXGroup;
 			children = (
+				95B0FE911F2F144500BA8C38 /* imageStone */,
 				95B0FE701F2EE49000BA8C38 /* 导航元素控制器的切换 */,
 				95B0FE6F1F2EE49000BA8C38 /* Products */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				95B0FE811F2EE49000BA8C38 /* LaunchScreen.storyboard in Resources */,
 				95B0FE7E1F2EE49000BA8C38 /* Assets.xcassets in Resources */,
+				95B0FE921F2F144500BA8C38 /* imageStone in Resources */,
 				95B0FE7C1F2EE49000BA8C38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
