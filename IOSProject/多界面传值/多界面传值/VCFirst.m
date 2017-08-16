@@ -32,7 +32,7 @@
     
     VCSecond* vc = [[VCSecond alloc] init];
     
-    vc.delegate = self;
+    //vc.delegate = self;
     
     vc.view.backgroundColor = [UIColor orangeColor];
     
